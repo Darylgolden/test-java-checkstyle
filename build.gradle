@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add your dependencies here
+}
+
+apply plugin: 'application'
+
+mainClassName = 'com.Main'
